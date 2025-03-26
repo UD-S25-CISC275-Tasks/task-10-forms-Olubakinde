@@ -19,19 +19,19 @@ describe("ShoveBox Component tests", () => {
             shoveBox.click();
         });
         expect(screen.getByTestId("moveable-box")).toHaveStyle({
-            marginLeft: "14px"
+            marginLeft: "14px",
         });
         await act(async () => {
             shoveBox.click();
         });
         expect(screen.getByTestId("moveable-box")).toHaveStyle({
-            marginLeft: "18px"
+            marginLeft: "18px",
         });
         await act(async () => {
             shoveBox.click();
         });
         expect(screen.getByTestId("moveable-box")).toHaveStyle({
-            marginLeft: "22px"
+            marginLeft: "22px",
         });
     });
 });

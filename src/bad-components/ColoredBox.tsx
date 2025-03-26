@@ -27,7 +27,7 @@ export function ColoredBox(): React.JSX.Element {
                         backgroundColor: COLORS[colorIndex],
                         display: "inline-block",
                         verticalAlign: "bottom",
-                        marginLeft: "5px"
+                        marginLeft: "5px",
                     }}
                 ></div>{" "}
             </div>

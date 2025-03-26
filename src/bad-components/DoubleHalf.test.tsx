@@ -13,10 +13,10 @@ describe("DoubleHalf Component tests", () => {
     });
     test("(2 pts) There are Double and Halve buttons", () => {
         expect(
-            screen.getByRole("button", { name: /Double/i })
+            screen.getByRole("button", { name: /Double/i }),
         ).toBeInTheDocument();
         expect(
-            screen.getByRole("button", { name: /Halve/i })
+            screen.getByRole("button", { name: /Halve/i }),
         ).toBeInTheDocument();
     });
     test("(2 pts) You can double the number.", async () => {

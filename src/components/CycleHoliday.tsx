@@ -6,7 +6,7 @@ enum Holiday {
     Easter = "🐰",
     Halloween = "🎃",
     NewYear = "🎆",
-    Thanksgiving = "🦃"
+    Thanksgiving = "🦃",
 }
 
 const alphabeticalOrder: Record<Holiday, Holiday> = {
@@ -14,7 +14,7 @@ const alphabeticalOrder: Record<Holiday, Holiday> = {
     [Holiday.Easter]: Holiday.Halloween,
     [Holiday.Halloween]: Holiday.NewYear,
     [Holiday.NewYear]: Holiday.Thanksgiving,
-    [Holiday.Thanksgiving]: Holiday.Christmas
+    [Holiday.Thanksgiving]: Holiday.Christmas,
 };
 
 const yearOrder: Record<Holiday, Holiday> = {
@@ -22,12 +22,12 @@ const yearOrder: Record<Holiday, Holiday> = {
     [Holiday.Easter]: Holiday.Halloween,
     [Holiday.Halloween]: Holiday.Thanksgiving,
     [Holiday.Thanksgiving]: Holiday.Christmas,
-    [Holiday.Christmas]: Holiday.NewYear
+    [Holiday.Christmas]: Holiday.NewYear,
 };
 
 export function CycleHoliday(): React.JSX.Element {
     const [currentHoliday, setCurrentHoliday] = useState<Holiday>(
-        Holiday.Christmas
+        Holiday.Christmas,
     );
 
     return (

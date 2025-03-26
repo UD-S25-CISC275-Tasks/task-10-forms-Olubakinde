@@ -19,19 +19,19 @@ describe("ColoredBox Component tests", () => {
             nextColor.click();
         });
         expect(screen.getByTestId("colored-box")).toHaveStyle({
-            backgroundColor: "blue"
+            backgroundColor: "blue",
         });
         await act(async () => {
             nextColor.click();
         });
         expect(screen.getByTestId("colored-box")).toHaveStyle({
-            backgroundColor: "green"
+            backgroundColor: "green",
         });
         await act(async () => {
             nextColor.click();
         });
         expect(screen.getByTestId("colored-box")).toHaveStyle({
-            backgroundColor: "red"
+            backgroundColor: "red",
         });
     });
 });

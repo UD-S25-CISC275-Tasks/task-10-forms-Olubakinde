@@ -4,14 +4,14 @@ import { QuestionType } from "../interfaces/question";
 
 export function ChangeType(): React.JSX.Element {
     const [questionType, setQuestionType] = useState<QuestionType>(
-        "short_answer_question"
+        "short_answer_question",
     );
 
     function toggleType() {
         setQuestionType(
-            questionType === "short_answer_question"
-                ? "multiple_choice_question"
-                : "short_answer_question"
+            questionType === "short_answer_question" ?
+                "multiple_choice_question"
+            :   "short_answer_question",
         );
     }
 
@@ -19,9 +19,9 @@ export function ChangeType(): React.JSX.Element {
         <div>
             <Button onClick={toggleType}>Change Type</Button>
             <div>
-                {questionType === "short_answer_question"
-                    ? "Short Answer"
-                    : "Multiple Choice"}
+                {questionType === "short_answer_question" ?
+                    "Short Answer"
+                :   "Multiple Choice"}
             </div>
         </div>
     );

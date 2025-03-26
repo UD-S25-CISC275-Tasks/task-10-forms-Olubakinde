@@ -29,7 +29,7 @@ function MoveableBox({ position }: { position: number }): React.JSX.Element {
                 border: "1px solid blue",
                 display: "inline-block",
                 verticalAlign: "bottom",
-                marginLeft: position + "px"
+                marginLeft: position + "px",
             }}
         ></div>
     );
