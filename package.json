@@ -4,19 +4,28 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+<<<<<<< HEAD
         "@emotion/react": "^11.14.0",
         "@emotion/styled": "^11.14.0",
         "@mui/material": "^6.4.8",
+=======
+>>>>>>> origin/main
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/user-event": "^13.5.0",
         "@types/jest": "^27.5.2",
         "@types/node": "^16.18.105",
+<<<<<<< HEAD
         "mui": "^0.0.1",
+=======
+>>>>>>> origin/main
         "react": "^18.3.1",
         "react-bootstrap": "^2.10.4",
         "react-dom": "^18.3.1",
         "react-scripts": "5.0.1",
+<<<<<<< HEAD
         "react-switch": "^7.1.0",
+=======
+>>>>>>> origin/main
         "typescript": "^4.9.5",
         "web-vitals": "^2.1.4"
     },
@@ -25,7 +34,10 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "test:cov": "react-scripts test --coverage --watchAll",
+<<<<<<< HEAD
         "test:json": "react-scripts test --json --watchAll=false --outputFile jest-output.json --coverage",
+=======
+>>>>>>> origin/main
         "eject": "react-scripts eject",
         "lint": "eslint ./src --ext .tsx --ext .ts --max-warnings 0",
         "eslint-output": "eslint-output ./src --ext .tsx --ext .ts --max-warnings 0",
